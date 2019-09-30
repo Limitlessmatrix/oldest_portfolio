@@ -97,6 +97,15 @@
     border-radius: 7px;
 }
 
+.machine-learning>* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    height: 100%;
+}
+
 .footer{
     display: flex;
     align-items: center;
@@ -111,3 +120,4 @@
     flex-direction: row;
     border-radius: 7px;
 }
+
