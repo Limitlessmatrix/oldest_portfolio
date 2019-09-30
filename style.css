@@ -97,13 +97,27 @@
     border-radius: 7px;
 }
 
-.machine-learning>* {
+.machine-learning {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
     align-content: center;
     height: 100%;
+}
+
+.machine-learning>h3 {
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.machine-learning>p {
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 7px;
+    font-weight: normal;
 }
 
 .footer{
@@ -120,4 +134,3 @@
     flex-direction: row;
     border-radius: 7px;
 }
-
